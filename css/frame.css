@@ -1,0 +1,78 @@
+/* Copyright (C) 2011 KryptonX */
+
+.frame 
+{
+    background-color: gainsboro;
+    font-family: Tahoma;
+    border: 2px solid gray;
+    width: 650px;
+    text-align: left;
+}
+
+.download
+{
+    background-color: gainsboro;
+    font-family: Tahoma;
+    border: 2px solid gray;
+    width: 650px;
+    text-align: center;
+}
+
+.sysdata
+{
+   background-color: #ffa;
+   font-family: Tahoma;
+   border: 2px solid silver;
+   width: 650px;
+   text-align: left;
+}
+
+.ourdata
+{
+   background-color: palegreen;
+   font-family: Tahoma;
+   border: 2px solid silver;
+   width: 650px;
+   text-align: left;
+}
+
+.header 
+{
+	background-color: silver;
+	font-family: Tahoma;
+	width: 650px;
+	text-align: justified;	
+	border: 5px solid gray;
+	font-size: 18px;
+}
+
+.error
+{
+background-color: firebrick;
+text-align: center;
+color: white;
+width: 650px;
+}
+body   
+{
+    background: white;
+    font-size: .90em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 10px;
+    padding: 0px;   
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.backdrop 
+{
+    background-image: img/splash.png;
+    font: Tahoma 10 20;   
+    
+}
+
+

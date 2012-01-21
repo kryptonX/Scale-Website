@@ -1,0 +1,22 @@
+.imgframe {	
+	background-color: steelblue;
+    font-family: Tahoma;
+    border: 2px solid firebrick;
+    width: 650px;		
+}
+
+.header {
+	color: firebrick;
+}
+
+.footer {
+	background-color: gainsboro;
+	font-family: Tahoma;
+	border: 2px solid steelblue;	
+}
+.iphone {      
+   text-align: center; 
+   width: 130px;   
+   outline: 2px;
+   outline-style : dashed;
+}

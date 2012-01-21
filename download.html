@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+
+    <title>Scale IDE</title>    
+    <!-- Import the JavaScript files -->
+    <script type="text/javascript" src="javascript/system.js"></script>   
+    <!-- Import CSS Style Sheets -->
+	<link rel="Stylesheet" type="text/css" href="css/frame.css" />
+    <link rel="Stylesheet" type="text/css" href="css/imgframe.css" />
+<center>
+<img src="img/scale.png" title="Scale IDE"/>
+<br />
+</head>
+<body>
+<center>
+<div class="frame">
+<h2>Thank You for Downloading Scale!</h2>
+<p>
+Thank you for supporting us/me. <b>Your download should begin immidiately. If not, click <a href="download/win-scale.zip">here</a>.
+</p>
+<hr />
+<b><em><a href="index.php">Back home</a></b></em>
+</div>
+</center>
+<script type="text/javascript">
+var osys = platform();
+if (osys.indexOf("Win32") != (-1))
+	window.location = "download/win-scale.zip";
+else
+{
+	alert("The package is currently only for Windows");
+	window.location = "download/win-scale.zip";
+}
+</script>
+</body>
+</html>
